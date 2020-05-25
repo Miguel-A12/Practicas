@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: Arial;
+}
+.cajaPadre {
+    background: #2e294a;
+    width: 700px;
+    overflow: hidden;
+}
+
+.caja {
+    width: 200px;
+    color: #ffff;
+    font-size: 38px;
+    height: 200px;
+    background: #0c6ba8;
+    margin: 20px;
+}
+.uno {
+    float: left
+}
+
+.dos {
+    float: right
+}
+
+/*}.clear {
+    clear: both;*/
+
+.artuculo {
+    width: 800px;
+    background: paleturquoise;
+
+}
+
+.artuculo img {
+    float:left;
+
+}
+
+}
+

@@ -1,0 +1,33 @@
+/*ul, ol {
+   list-style:none ;
+    padding: 0;
+}*/
+
+ul {
+    list-style:square;
+    list-style: lower-latin;
+
+}
+
+ol {
+    list-style: decimal-leading-zero ;
+}
+
+.menu {
+    background: #4347ad;
+    width: 200px;
+    list-style: none;
+    padding: 0;
+    text-align:center ;
+}
+
+.menu {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.menu li a {
+    display: block;
+    padding: 15px;
+    color: sandybrown;
+    text-decoration: #4545;
+}

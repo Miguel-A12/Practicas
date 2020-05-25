@@ -1,0 +1,18 @@
+body {
+    /*background:black ;
+    background: url('img/leif-christoph-gottwald-tjCIjq-rxBg-unsplash.jpg');
+    background:no-repeat;
+    background: repeat 50%;
+    background-attachment: fixed;
+    background-position:50px 200px;*/
+
+    /*background: url('img/griffin-wooldridge-Ap49Hhe1XVE-unsplash.jpg');
+    background-size: 500px;*/
+}
+
+.fondo {
+    width: 600px;
+    height: 600px;
+    background: url('img/leif-christoph-gottwald-tjCIjq-rxBg-unsplash.jpg') #000;
+    background-size: 50% 100%;
+}
