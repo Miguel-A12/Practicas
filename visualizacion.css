@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: powderblue;
+}
+
+div, a {
+    background: #ccc;
+
+}
+
+a {
+    /*display: none;
+    visibility: hidden;*/
+}
+
+.caja{
+    background: rosybrown;
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.contenedor {
+    width: 600px;
+    background: salmon;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.izquierda {float: left;}
+.derecha {float: right;}
+
+.contenedor2 .caja {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}

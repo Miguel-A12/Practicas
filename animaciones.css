@@ -1,0 +1,26 @@
+@keyframes colores {
+    /*from{background: seagreen;}
+    to{background: slateblue;}*/
+    0%{background: tan;}
+    25%{background: yellow; width: 300px;}
+    50%{background: green; width: 400px;}
+    75%{background-color: hotpink; width: 300px;}
+    100%{background: khaki; width: 200px;}
+}
+
+@keyframes movimiento {
+    0%{transform: translate(0px);}
+    50%{transform: translate(500px);}
+    100%{transform: translate(0px);}
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: springgreen;
+    animation-name: colores;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    animation:movimiento 10s ease infinite;
+}
